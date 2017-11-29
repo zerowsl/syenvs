@@ -21,23 +21,32 @@ syenvs是一款基于命令行windows环境变量处理小工具。你可以通�
 **特别注意：** 修改后需要重新打开命令行（或重启进程）环境变量才会生效
 
 sample如下：
+
+查看help
 ```cmd
-#查看help
 $ syenvs help
+```
 
-rem 查看版本
+查看版本
+```cmd
 $ syenvs -v
+```
 
-rem 查看环境变量，加上 -cu 表示当前用户的环境变量
+查看环境变量，加上 -cu 表示当前用户的环境变量
+```cmd
 $ syenvs ls
 $ syenvs ls -cu Path
+```
 
-rem 添加环境变量，不会重复添加
+添加环境变量，不会重复添加
+```cmd
 $ syenvs add "JAVA_HOME" "C:\Program Files\Java\jdk"
 $ syenvs add "CLASSPATH" ".;%%JAVA_HOME%%\lib\dt.jar%%JAVA_HOME%%\lib\tools.jar;"
 $ syenvs add "Path" "%%JAVA_HOME%%\bin" "%%JAVA_HOME%%\jre\bin"
+```
 
-rem 删除环境变量，无视不存在的路径
+删除环境变量，无视不存在的路径
+```cmd
 $ syenvs del "Path" -cu "%ProgramFiles%\Microsoft VS Code\bin\\"
 $ syenvs del "this_is_not_exists_var"
 $ syenvs del ANDROID_HOME
