@@ -21,7 +21,7 @@ syenvs是一款基于命令行windows环境变量处理小工具。你可以通�
 **特别注意：** 修改后需要重新打开命令行（或重启进程）环境变量才会生效
 
 sample如下：
-```cmd
+```shell
 rem 查看help
 $ syenvs help
 
