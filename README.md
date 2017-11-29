@@ -5,10 +5,10 @@ syenvs是一款基于命令行windows环境变量处理小工具。你可以通�
 **特别注意：** 修改后需要重新打开命令行（或重启进程）环境变量才会生效
 
 ### 系统要求
-[syenvs(.net4x)]()\
+[syenvs(.net4x)](https://github.com/zerowsl/syenvs/releases/download/untagged-8ac50300afda1028302e/syenvs-net4x.zip)\
 适用winxp+，需要安装 .net framework4.0（win8以上系统自带）
 
-[syenvs(.netcore2.0)]()\
+[syenvs(.netcore2.0)](https://github.com/zerowsl/syenvs/releases/download/untagged-8ac50300afda1028302e/syenvs-netcore2.0.zip)\
 适用win7+，需要安装dotnet core 2.0运行时
 
 [syenvs(tonative)]()\
