@@ -45,6 +45,11 @@ $ syenvs add "CLASSPATH" ".;%%JAVA_HOME%%\lib\dt.jar%%JAVA_HOME%%\lib\tools.jar;
 $ syenvs add "Path" "%%JAVA_HOME%%\bin" "%%JAVA_HOME%%\jre\bin"
 ```
 
+ 直接设置环境变量，会覆盖原有变量，所以处理PATH时要小心
+ ```cmd
+ $ syenvs set "JAVA_HOME" "C:\Program Files\Java\jdk"
+ ```
+
 删除环境变量，无视不存在的路径
 ```cmd
 $ syenvs del "Path" -cu "%ProgramFiles%\Microsoft VS Code\bin\\"
