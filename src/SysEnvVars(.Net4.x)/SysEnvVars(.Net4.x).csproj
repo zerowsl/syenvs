@@ -45,6 +45,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cmd\set.cs" />
     <Compile Include="cmd\add.cs" />
     <Compile Include="cmd\help.cs" />
     <Compile Include="cmd\list.cs" />
@@ -59,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="env.ico" />
+    <None Include="rm-syenvs.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.manifest" />
