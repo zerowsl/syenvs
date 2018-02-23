@@ -23,6 +23,7 @@
   </ItemGroup>
     
   <ItemGroup>
+    <Compile Include="..\SysEnvVars%28.Net4.x%29\cmd\set.cs" Link="cmd\set.cs" />
     <Compile Include="..\SysEnvVars%28.Net4.x%29\EnvVarsHelper.cs" Link="EnvVarsHelper.cs" />
     <Compile Include="..\SysEnvVars%28.Net4.x%29\Properties\AssemblyInfo.cs" Link="Properties\AssemblyInfo.cs" />
     <Compile Include="..\SysEnvVars(.Net4.x)\Args.cs" />
