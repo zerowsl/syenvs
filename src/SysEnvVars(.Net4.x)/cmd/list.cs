@@ -66,7 +66,7 @@ namespace SysEnvVars
                             else
                             {
                                 foreach (var cv in ckvs)
-                                    Console.WriteLine($"  {cv}");
+                                    Console.WriteLine($"  {cv}");  //??empty??
                                 Console.WriteLine();
                             }
                         }
