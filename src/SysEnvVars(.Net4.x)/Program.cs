@@ -53,6 +53,9 @@ namespace SysEnvVars
                 case "add":
                     return get_exec_add(e);
 
+                case "set":
+                    return get_exec_set(e);
+
                 case "remove":
                 case "rm":
                 case "delete":

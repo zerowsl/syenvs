@@ -105,7 +105,7 @@ static class EnvVarsHelper
         Win32Native.SetEnvironmentVariable(sub, f());
     }
 
-    public static void UpdateVars(RegistryKey sub, params ValueTuple<string, IEnumerable<string>>[] envs)  //(string name, IEnumerable<string> values)[]
+    public static void SetOrUpdateVars(RegistryKey sub, params ValueTuple<string, IEnumerable<string>>[] envs)  //(string name, IEnumerable<string> values)[]
     {
         IEnumerable<ValueTuple<string, string>> f()
         {
